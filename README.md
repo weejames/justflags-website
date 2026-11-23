@@ -1,6 +1,6 @@
 # Just Flags website
 
-Static marketing site for [Just Flags](https://github.com/weejames/justflags), the iPad app for learning the flags of the world. Plain HTML and CSS, no build step.
+Static marketing site for [Just Flags](https://github.com/weejames/justflags), the app for iPhone and iPad for learning the flags of the world. Plain HTML and CSS, no build step.
 
 | Page | Path | App Store Connect field |
 |---|---|---|
@@ -18,7 +18,7 @@ Then open <http://localhost:8417>.
 
 ## Assets
 
-- `assets/screenshots/` — 1600×1200 JPEGs made from the simulator captures in the app repo's `design/app-store/screenshots/`
+- `assets/screenshots/` — 1600×1200 iPad and 600px-wide `iphone-*` JPEGs made from the simulator captures in the app repo's `design/app-store/screenshots/`
 - `assets/icon-256.png`, `favicon.png`, `apple-touch-icon.png` — resized from the app's 1024px icon
 - `assets/fonts/` — Fredoka and Nunito, the app's fonts, under the SIL Open Font License
 
