@@ -22,6 +22,6 @@ Then open <http://localhost:8417>.
 - `assets/icon-256.png`, `favicon.png`, `apple-touch-icon.png` — resized from the app's 1024px icon
 - `assets/fonts/` — Fredoka and Nunito, the app's fonts, under the SIL Open Font License
 
-## When the app goes live
+## App Store
 
-Replace the "Coming soon" block (`#app-store` in `index.html`) with Apple's official "Download on the App Store" badge from <https://developer.apple.com/app-store/marketing/guidelines/>, linked to the app's App Store URL.
+The app is live at <https://apps.apple.com/app/id6826595814>. Every page has a Smart App Banner (`apple-itunes-app` meta tag) for Safari on iOS, and the home page's `#app-store` button links to the listing. To use Apple's official badge artwork instead, get it from <https://developer.apple.com/app-store/marketing/guidelines/>, save it under `assets/`, and put it inside that link.
