@@ -372,6 +372,33 @@ section {
   margin-top: 18px;
 }
 
+/* iPhone row */
+
+.phones {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(20px, 4vw, 48px);
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.phones figure {
+  margin: 0;
+}
+
+.iphone {
+  background: #1b1f26;
+  border-radius: clamp(28px, 4.4vw, 48px);
+  padding: clamp(7px, 1vw, 11px);
+  box-shadow: 0 10px 0 var(--ledge), 0 30px 60px rgba(30, 42, 58, 0.12);
+}
+
+.iphone img {
+  border-radius: clamp(21px, 3.4vw, 38px);
+  aspect-ratio: 1320 / 2868;
+  width: 100%;
+}
+
 /* Prose pages */
 
 .prose {
@@ -485,6 +512,26 @@ section {
   .gallery {
     margin: 0 -16px;
     padding: 8px 16px 28px;
+  }
+
+  .phones {
+    grid-template-columns: none;
+    grid-auto-flow: column;
+    grid-auto-columns: 62%;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    margin: 0 -16px;
+    padding: 8px 16px 28px;
+  }
+
+  .phones::-webkit-scrollbar {
+    display: none;
+  }
+
+  .phones figure {
+    scroll-snap-align: center;
   }
 
   .prose {
